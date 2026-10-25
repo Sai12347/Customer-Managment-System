@@ -1,11 +1,11 @@
 package com.java.classs.assisgnment;
 
-import java.util.HashSet;
+
 
 public class CustomerMain {
     public static void main(String[] args) {
         CustomerOperations customerOperations = new CustomerOperations();
-          Customer customer = new Customer();
+          
 
         System.out.println("intial Customers");
         System.out.println(customerOperations.getCustomers());
