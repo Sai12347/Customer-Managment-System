@@ -1,4 +1,4 @@
-package com.java.classs.assisgment;
+package com.java.classs.assisgnment;
 
 import java.util.HashSet;
 
