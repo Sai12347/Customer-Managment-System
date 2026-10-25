@@ -88,7 +88,7 @@ public class Customer implements Comparable<Customer>{
        String otherCustumerLastName = otherCustumer.getLastName();
         char otherCustumerGender = otherCustumer.getGender();
 
-        // LOGIC FOR EQUALITY CHECK
+        
         if (currentProductId == otherCustumerId
                 && currentCustumerFirstName.equals(otherCustumerFirstName)
                 && currentProductLastName.equals(otherCustumerLastName)
