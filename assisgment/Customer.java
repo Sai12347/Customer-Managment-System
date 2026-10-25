@@ -2,7 +2,7 @@ package com.java.classs.assisgment;
 
 
 
-public class Customer implements Comparable<Customer>{
+public class Customer {
     private int id;
     private String firstName;
     private String lastName;
@@ -61,18 +61,8 @@ public class Customer implements Comparable<Customer>{
         return Integer.hashCode(id);
     }
 
-    @Override
-    public int compareTo(Customer o) {
-        Customer currentCustomer = (Customer) this;
-        Customer otherCustomer = (Customer) o;
-        if (currentCustomer.getId() > otherCustomer.getId()) {
-            return -1;
-        } else if (currentCustomer.getId() < otherCustomer.getId()) {
-            return 1;
-        }
 
-        return 0;
-    }
+    
     @Override
     public boolean equals(Object obj) {
         boolean areSame = false;
