@@ -12,7 +12,7 @@ public class CustomerOperations {
     public boolean addCustomer(int customerId, String firstName, String lastName,char gender) {
         boolean isAdded = false;
         if (findCustomerById(customerId) != null) {
-            return false;                  // id already taken
+            return false;                  
         }
         Customer newProduct = new Customer(customerId, firstName,lastName,gender);
         isAdded = customers.add(newProduct);;
