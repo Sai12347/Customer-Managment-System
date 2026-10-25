@@ -3,7 +3,7 @@ package com.java.classs.assisgment;
 
 
 
-public class CustomerMain {
+public class CustomerManagment {
     public static void main(String[] args) {
         CustomerOperations customerOperations = new CustomerOperations();
           Customer customer = new Customer();
