@@ -2,7 +2,7 @@ package com.java.classs.assisgnment;
 
 
 
-public class CustomerMain {
+public class CustomerManagment {
     public static void main(String[] args) {
         CustomerOperations customerOperations = new CustomerOperations();
           
